@@ -1,0 +1,8 @@
+-- [E011-01] INTEGER and SMALLINT data types
+DROP TABLE IF EXISTS tbl;
+CREATE TABLE tbl ( 
+	col1 INT, 
+	col2 INTEGER, 
+	col3 SMALLINT
+);
+DROP TABLE IF EXISTS tbl;
